@@ -1,0 +1,33 @@
+{
+  "carros": [
+    {
+      "id": "3cc7",
+      "modelo": "chevette",
+      "marca": "gm",
+      "ano": "1998",
+      "preco": "15000",
+      "foto": "https://imgs.search.brave.com/KcCPnWHYiSnoqJKDZ2vrPS3n2lxryfHqFOF1Hs5EYxI/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly91cGxv/YWQud2lraW1lZGlh/Lm9yZy93aWtpcGVk/aWEvcHQvdGh1bWIv/Mi8yZS9DaGV2ZXR0/ZV8xOTg1LnBuZy81/MTJweC1DaGV2ZXR0/ZV8xOTg1LnBuZw",
+      "dataCadastro": "2025-10-14T14:09:15.920Z",
+      "avaliacoes": [
+        4,
+        3,
+        3,
+        4,
+        4,
+        5
+      ]
+    },
+    {
+      "id": "32cf",
+      "modelo": "uno",
+      "marca": "fiat",
+      "ano": "2012",
+      "preco": "23000",
+      "foto": "https://imgs.search.brave.com/ynuTLLnTdwV18ilX08JnotlFHGqDnXFZImB_9pw9q_Q/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly91cGxv/YWQud2lraW1lZGlh/Lm9yZy93aWtpcGVk/aWEvY29tbW9ucy82/LzZmL0ZpYXRfVW5v/X0NTTF9mcm9udC5q/cGc",
+      "dataCadastro": "2025-10-14T14:27:25.756Z",
+      "avaliacoes": [
+        5
+      ]
+    }
+  ]
+}

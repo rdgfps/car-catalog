@@ -1,0 +1,249 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #121212;
+  color: #e5e5e5;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 24px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 32px;
+  padding-bottom: 16px;
+  border-bottom: 2px solid #1f1f1f;
+}
+
+.header h1 {
+  font-size: 1.8rem;
+  color: #ff3232;
+  letter-spacing: 1px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  margin-left: 12px;
+  background: #ff3232;
+  padding: 8px 16px;
+  border-radius: 6px;
+  transition: background 0.2s;
+}
+
+nav a:hover {
+  background: #ff5050;
+}
+
+input[type="text"] {
+  width: 100%;
+  max-width: 400px;
+  padding: 14px 16px;
+  border: 2px solid #333;
+  border-radius: 8px;
+  margin-bottom: 24px;
+  background: #1e1e1e;
+  color: #f5f5f5;
+  font-size: 1rem;
+  outline: none;
+  transition: border-color 0.2s;
+}
+
+input[type="text"]:focus {
+  border-color: #ff3232;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 28px;
+  padding: 0 8px;
+}
+
+.card {
+  background: #1b1b1b;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.3);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.card:hover {
+  transform: translateY(-6px) scale(1.01);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.4);
+}
+
+.card img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  background: #222;
+}
+
+.card-content {
+  padding: 18px 16px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.card-content h3 {
+  font-size: 1.25rem;
+  color: #f5f5f5;
+  margin: 0 0 6px 0;
+  font-weight: 600;
+}
+
+.card-content p {
+  color: #aaa;
+  font-size: 0.95rem;
+  margin: 4px 0;
+}
+
+.price {
+  color: #ffd32a;
+  font-weight: 700;
+  margin: 8px 0;
+  font-size: 1.1rem;
+}
+
+.stars {
+  display: flex;
+  align-items: center;
+  margin: 6px 0;
+  gap: 4px;
+}
+
+.star {
+  font-size: 20px;
+  color: #444;
+  transition: color 0.2s;
+}
+
+.star.active {
+  color: #ffd32a;
+}
+
+.btn {
+  background: #ff3232;
+  color: white;
+  border: none;
+  padding: 10px 16px;
+  border-radius: 8px;
+  margin-top: auto;
+  cursor: pointer;
+  font-weight: 500;
+  transition: background 0.2s;
+  text-decoration: none;
+  text-align: center;
+}
+
+.btn:hover {
+  background: #ff5050;
+}
+
+form {
+  background: #1c1c1c;
+  padding: 24px;
+  border-radius: 12px;
+  max-width: 500px;
+  margin: 0 auto;
+  box-shadow: 0 6px 24px rgba(0, 0, 0, 0.35);
+}
+
+form input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 16px;
+  border: 1px solid #333;
+  border-radius: 8px;
+  background: #2a2a2a;
+  color: #fff;
+}
+form {
+  background: #191919;
+  padding: 36px 32px 24px 32px;
+  border-radius: 16px;
+  max-width: 520px;
+  margin: 40px auto;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.34);
+  display: flex;
+  flex-direction: column;
+}
+
+form h2,
+form legend {
+  color: #fff;
+  font-size: 1.7rem;
+  font-weight: 600;
+  margin-bottom: 28px;
+  letter-spacing: 0.5px;
+}
+
+form input[type="text"],
+form input[type="number"],
+form input[type="url"],
+form input:not([type]),
+form textarea {
+  background: #222;
+  color: #efefef;
+  border: 2px solid #282828;
+  border-radius: 10px;
+  padding: 16px 14px;
+  font-size: 1.05rem;
+  font-family: 'Poppins', sans-serif;
+  margin-bottom: 18px;
+  box-shadow: 0 2px 12px rgba(0,0,0,.10);
+  transition: border-color 0.2s, background 0.2s;
+}
+
+form input:focus,
+form textarea:focus {
+  border-color: #ffd32a;
+  background: #222218;
+  outline: none;
+}
+
+form label {
+  color: #f5f5f5;
+  font-size: 1rem;
+  margin-bottom: 6px;
+  font-weight: 500;
+  display: block;
+}
+
+form .btn, form button[type="submit"] {
+  background: #ff3232;
+  color: #fff;
+  padding: 12px 0;
+  font-size: 1.12rem;
+  border: none;
+  border-radius: 8px;
+  margin-top: 14px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  cursor: pointer;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.09);
+  transition: background 0.19s, box-shadow 0.16s;
+}
+
+form .btn:hover, form button[type="submit"]:hover {
+  background: #ff5050;
+  box-shadow: 0 5px 22px rgba(0,0,0,0.15);
+}
+
