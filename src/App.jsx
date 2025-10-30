@@ -1,14 +1,15 @@
 import React from 'react'
 import { Routes, Route, Link } from 'react-router-dom'
-import Home from './pages/Home'
-import AddCar from './pages/AddCar'
-import CarDetails from './pages/CarDetails'
+import Home from './pages/home/Home'
+import AddCar from './pages/addcar/AddCar'
+import CarDetails from './pages/cardetails/CarDetails'
+import './App.css'
 
 export default function App() {
   return (
     <div className="container">
       <header className="header">
-        <h1>Catálogo de Carros</h1>
+        <h1>Garagem RL</h1>
         <nav>
           <Link to="/" className="btn">Home</Link>
           <Link to="/add" className="btn btn-primary">Adicionar</Link>

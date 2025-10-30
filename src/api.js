@@ -2,8 +2,8 @@ const BASE = 'http://localhost:3001'
 
 async function request(endpoint, options = {}) {
   const res = await fetch(`${BASE}${endpoint}`, options)
-  if (!res.ok) throw new Error('Erro na requisição')
-  return res.json ? res.json() : res.ok
+  if (!res.ok) throw new Error(`Erro na requisição: ${res.status}`)
+  return await res.json()  // Corrigido: sempre retorna o JSON resolvido
 }
 
 export async function getCarros() {

@@ -1,33 +1,77 @@
 {
   "carros": [
     {
-      "id": "3cc7",
+      "id": "387c",
       "modelo": "chevette",
       "marca": "gm",
-      "ano": "1998",
+      "ano": "1999",
       "preco": "15000",
       "foto": "https://imgs.search.brave.com/KcCPnWHYiSnoqJKDZ2vrPS3n2lxryfHqFOF1Hs5EYxI/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly91cGxv/YWQud2lraW1lZGlh/Lm9yZy93aWtpcGVk/aWEvcHQvdGh1bWIv/Mi8yZS9DaGV2ZXR0/ZV8xOTg1LnBuZy81/MTJweC1DaGV2ZXR0/ZV8xOTg1LnBuZw",
-      "dataCadastro": "2025-10-14T14:09:15.920Z",
+      "dataCadastro": "2025-10-28T13:22:40.441Z",
       "avaliacoes": [
-        4,
-        3,
-        3,
-        4,
-        4,
-        5
-      ]
+        {
+          "nome": "lucas",
+          "comentario": "carro bom",
+          "nota": 4
+        },
+        {
+          "nome": "henrique",
+          "comentario": "bebe muito",
+          "nota": 3
+        },
+        {
+          "nome": "pedro",
+          "comentario": "bom",
+          "nota": 4
+        },
+        {
+          "nome": "tata",
+          "comentario": "carro bom",
+          "nota": 2
+        },
+        {
+          "nome": "roberto",
+          "comentario": "carro bom",
+          "nota": 5
+        },
+        {
+          "nome": "joao",
+          "comentario": "carro bom",
+          "nota": 4
+        },
+        {
+          "nome": "-as-da-sd",
+          "comentario": "sdjasdijas",
+          "nota": 5
+        }
+      ],
+      "media": 3.9
     },
     {
-      "id": "32cf",
-      "modelo": "uno",
-      "marca": "fiat",
-      "ano": "2012",
-      "preco": "23000",
-      "foto": "https://imgs.search.brave.com/ynuTLLnTdwV18ilX08JnotlFHGqDnXFZImB_9pw9q_Q/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly91cGxv/YWQud2lraW1lZGlh/Lm9yZy93aWtpcGVk/aWEvY29tbW9ucy82/LzZmL0ZpYXRfVW5v/X0NTTF9mcm9udC5q/cGc",
-      "dataCadastro": "2025-10-14T14:27:25.756Z",
+      "id": "ccdd",
+      "modelo": "onix",
+      "marca": "chevrolet",
+      "ano": 2017,
+      "preco": 50000,
+      "foto": "https://imgs.search.brave.com/BrZzYK-DjauUhFteBdRyQUEbD5TWb0f8bN3WDJfHjjQ/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9pbWcx/LmljYXJyb3MuY29t/L2RiaW1nL2ltZ2Fk/aWNpb25hbGFudW5j/aW8vMS80NDk0MzY0/NzFfMS53ZWJw",
+      "fotos": [
+        "https://imgs.search.brave.com/BrZzYK-DjauUhFteBdRyQUEbD5TWb0f8bN3WDJfHjjQ/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9pbWcx/LmljYXJyb3MuY29t/L2RiaW1nL2ltZ2Fk/aWNpb25hbGFudW5j/aW8vMS80NDk0MzY0/NzFfMS53ZWJw",
+        "https://imgs.search.brave.com/As89yX_Tb_zANJ-s9k-tuXCFi8c2RY6hrJv7KRcl_9M/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9odHRw/Mi5tbHN0YXRpYy5j/b20vRF9OUV9OUF85/MDE2NDctTUxCNzI0/Nzg1NjUwNDlfMTAy/MDIzLVcud2VicA"
+      ],
+      "dataCadastro": "2025-10-29T01:03:36.153Z",
       "avaliacoes": [
-        5
-      ]
+        {
+          "nome": "nara",
+          "comentario": "carro muit bom",
+          "nota": 4
+        },
+        {
+          "nome": "henrique",
+          "comentario": "carro muit bom",
+          "nota": 5
+        }
+      ],
+      "media": 4.5
     }
   ]
 }

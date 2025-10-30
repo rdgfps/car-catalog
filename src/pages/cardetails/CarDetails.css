@@ -1,0 +1,220 @@
+.car-details-container {
+  background-color: #0d0d0d;
+  color: #fff;
+  padding: 30px;
+  border-radius: 12px;
+  width: 80%;
+  margin: 40px auto;
+  box-shadow: 0 0 20px rgba(255, 0, 0, 0.2);
+  text-align: center;
+}
+
+.car-image {
+  width: 100%;
+  max-width: 500px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(255, 0, 0, 0.4);
+  margin-bottom: 20px;
+}
+
+.car-details-container h2 {
+  font-size: 1.8rem;
+  color: #ff2d2d;
+  margin-bottom: 10px;
+}
+
+.car-details-container p {
+  color: #ccc;
+  font-size: 1rem;
+  margin: 4px 0;
+}
+
+.preco {
+  font-weight: bold;
+  color: #ff4d4d;
+  margin-top: 10px;
+}
+
+.media {
+  color: #ffcc00;
+  font-size: 1.1rem;
+  margin: 10px 0 20px 0;
+}
+
+.btn-avaliar {
+  background-color: #ff2d2d;
+  border: none;
+  color: white;
+  padding: 10px 25px;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.btn-avaliar:hover {
+  background-color: #cc1b1b;
+  box-shadow: 0 0 10px rgba(255, 0, 0, 0.4);
+}
+
+.titulo-avaliacoes {
+  color: #ff2d2d;
+  margin-top: 40px;
+  font-size: 1.3rem;
+}
+
+.avaliacoes {
+  background-color: #1a1a1a;
+  border-radius: 10px;
+  padding: 15px;
+  margin-top: 10px;
+  text-align: left;
+  max-width: 700px;
+  margin-inline: auto;
+  box-shadow: 0 0 10px rgba(255, 0, 0, 0.2);
+}
+
+.avaliacao {
+  margin-bottom: 15px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  padding-bottom: 10px;
+}
+
+.avaliacao strong {
+  color: #ff4d4d;
+}
+
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.85);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+  backdrop-filter: blur(4px);
+  animation: fadeIn 0.3s ease-in-out;
+}
+
+.modal {
+  background-color: #141414;
+  border: 1px solid #ff2d2d;
+  border-radius: 14px;
+  padding: 30px;
+  width: 90%;
+  max-width: 420px;
+  text-align: center;
+  box-shadow: 0 0 25px rgba(255, 0, 0, 0.4);
+  animation: slideUp 0.3s ease-in-out;
+}
+
+.modal h2 {
+  color: #ff2d2d;
+  font-weight: 700;
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+  text-shadow: 0 0 10px rgba(255, 0, 0, 0.3);
+}
+
+.modal input,
+.modal textarea {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  border: 1px solid #ff2d2d;
+  border-radius: 8px;
+  background-color: #1e1e1e;
+  color: #fff;
+  font-size: 0.95rem;
+  outline: none;
+  transition: 0.3s;
+}
+
+.modal input:focus,
+.modal textarea:focus {
+  border-color: #ff4040;
+  box-shadow: 0 0 10px rgba(255, 0, 0, 0.3);
+}
+
+.modal textarea {
+  height: 80px;
+  resize: none;
+}
+
+.rating-stars {
+  margin: 18px 0;
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+}
+
+.rating-stars span {
+  font-size: 2rem;
+  cursor: pointer;
+  color: #444;
+  transition: transform 0.2s, color 0.2s, text-shadow 0.3s;
+}
+
+.rating-stars span:hover {
+  color: #ffcc00;
+  transform: scale(1.2);
+  text-shadow: 0 0 12px rgba(255, 204, 0, 0.8);
+}
+
+.rating-stars span.active {
+  color: #ffcc00;
+  text-shadow: 0 0 15px rgba(255, 204, 0, 0.9);
+  transform: scale(1.1);
+}
+
+.review-buttons {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.review-buttons button {
+  flex: 1;
+  padding: 12px 0;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  font-size: 0.95rem;
+}
+
+.review-buttons button:first-child {
+  background-color: #ff2d2d;
+  color: white;
+  box-shadow: 0 0 10px rgba(255, 0, 0, 0.3);
+}
+
+.review-buttons button:first-child:hover {
+  background-color: #e11d48;
+  transform: translateY(-1px);
+}
+
+.review-buttons .cancel {
+  background-color: #333;
+  color: #fff;
+}
+
+.review-buttons .cancel:hover {
+  background-color: #444;
+  transform: translateY(-1px);
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes slideUp {
+  from { transform: translateY(40px); opacity: 0; }
+  to { transform: translateY(0); opacity: 1; }
+}
